@@ -13,6 +13,13 @@ Upstream base: 5327b3c609971afb7785c01eb46a6afddc468c3c.
 - Original license and attribution included in the app's license screen.
 - An Android-only GitHub Actions workflow builds an installable debug APK.
 
+## Build compatibility fix on 2026-11-06
+
+- CargoKit discovers the Flutter application through its project extensions,
+  avoiding an implementation class check and a now-private plugin field.
+- The APK is checked for the MangaNest package/name, bundled attribution,
+  and the required Rust library for every bundled Flutter architecture.
+
 ## Build
 
 The Android APK workflow runs on pushes to main and can be run manually.
