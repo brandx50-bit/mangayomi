@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -498,7 +499,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get open_source_licenses_subtitle =>
-      'بسته‌های مورد استفاده در ساخت Mangayomi و مجوزهای آن‌ها';
+      'بسته‌های مورد استفاده در ساخت MangaNest و مجوزهای آن‌ها';
 
   @override
   String get open_source_licenses_empty => 'اطلاعات مجوزی در دسترس نیست.';
@@ -2600,10 +2601,10 @@ class AppLocalizationsFa extends AppLocalizations {
   String get tracked => 'پیگیری‌شده';
 
   @override
-  String get auth_unlock_msg => 'برای باز کردن قفل Mangayomi احراز هویت کنید';
+  String get auth_unlock_msg => 'برای باز کردن قفل MangaNest احراز هویت کنید';
 
   @override
-  String get app_locked => 'برنامه Mangayomi قفل است';
+  String get app_locked => 'برنامه MangaNest قفل است';
 
   @override
   String get auth_to_continue => 'برای ادامه احراز هویت کنید';
@@ -3170,7 +3171,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get something_went_wrong => 'مشکلی پیش آمد';
 
   @override
-  String get startup_failed => 'راه‌اندازی Mangayomi کامل نشد';
+  String get startup_failed => 'راه‌اندازی MangaNest کامل نشد';
 
   @override
   String sources_with_no_results(int count) {
@@ -3420,7 +3421,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get error_reports_report => 'گزارش در GitHub';
 
   @override
-  String get error_reports_banner => 'برنامه Mangayomi با خطایی مواجه شد';
+  String get error_reports_banner => 'برنامه MangaNest با خطایی مواجه شد';
 
   @override
   String get error_reports_banner_action => 'مشاهده';
@@ -3436,7 +3437,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      'این خطا از یک افزونه ناشی شده است، نه از Mangayomi. افزونه‌ها توسط گردانندگان مخزنی که این منبع را از آن نصب کرده‌اید نوشته و نگه‌داری می‌شوند، بنابراین رفع مشکل باید در آنجا انجام شود. نام منبع و آنچه در حال باز کردنش بودید، جزئیات مفیدی هستند که می‌توانید به آن‌ها ارائه دهید.';
+      'این خطا از یک افزونه ناشی شده است، نه از MangaNest. افزونه‌ها توسط گردانندگان مخزنی که این منبع را از آن نصب کرده‌اید نوشته و نگه‌داری می‌شوند، بنابراین رفع مشکل باید در آنجا انجام شود. نام منبع و آنچه در حال باز کردنش بودید، جزئیات مفیدی هستند که می‌توانید به آن‌ها ارائه دهید.';
 
   @override
   String get error_reports_already_reported => 'قبلاً گزارش شده است';
@@ -3450,14 +3451,14 @@ class AppLocalizationsFa extends AppLocalizations {
       'اشتراک‌گذاری در این پلتفرم در دسترس نیست، بنابراین در کلیپ‌بورد کپی شد.';
 
   @override
-  String get onboarding_title => 'به Mangayomi خوش آمدید';
+  String get onboarding_title => 'به MangaNest خوش آمدید';
 
   @override
   String get onboarding_language_title => 'زبان خود را انتخاب کنید';
 
   @override
   String get onboarding_language_body =>
-      'برنامه Mangayomi به این زبان نمایش داده می‌شود. می‌توانید بعداً آن را در بخش «ظاهر» تغییر دهید.';
+      'برنامه MangaNest به این زبان نمایش داده می‌شود. می‌توانید بعداً آن را در بخش «ظاهر» تغییر دهید.';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3529,7 +3530,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get onboarding_body =>
-      'برنامه Mangayomi به‌خودی‌خود هیچ منبعی ندارد. یک مخزن اضافه کنید تا افزونه‌های موجود در آن برای نصب و مرور در دسترس قرار گیرند.';
+      'برنامه MangaNest به‌خودی‌خود هیچ منبعی ندارد. یک مخزن اضافه کنید تا افزونه‌های موجود در آن برای نصب و مرور در دسترس قرار گیرند.';
 
   @override
   String get onboarding_add => 'افزودن مخزن';
@@ -3800,7 +3801,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get genre_rows => 'ردیف‌های ژانر';
 
   @override
-  String get share_backup_file => 'اشتراک‌گذاری فایل پشتیبان Mangayomi';
+  String get share_backup_file => 'اشتراک‌گذاری فایل پشتیبان MangaNest';
 
   @override
   String get close => 'بستن';

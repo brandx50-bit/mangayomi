@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -499,7 +500,7 @@ class AppLocalizationsAs extends AppLocalizations {
 
   @override
   String get open_source_licenses_subtitle =>
-      'Mangayomi নিৰ্মাণত ব্যৱহৃত পেকেজ আৰু সিহতৰ লাইচেঞ্চ';
+      'MangaNest নিৰ্মাণত ব্যৱহৃত পেকেজ আৰু সিহতৰ লাইচেঞ্চ';
 
   @override
   String get open_source_licenses_empty => 'লাইচেঞ্চৰ তথ্য উপলব্ধ নাই।';
@@ -2588,10 +2589,10 @@ class AppLocalizationsAs extends AppLocalizations {
   String get tracked => 'ট্র্যাক কৰা';
 
   @override
-  String get auth_unlock_msg => 'Mangayomi আনলক কৰিবলৈ প্রমাণ কৰক';
+  String get auth_unlock_msg => 'MangaNest আনলক কৰিবলৈ প্রমাণ কৰক';
 
   @override
-  String get app_locked => 'Mangayomi লক কৰা আছে';
+  String get app_locked => 'MangaNest লক কৰা আছে';
 
   @override
   String get auth_to_continue => 'অব্যাহত ৰাখিবলৈ প্রমাণ কৰক';
@@ -3157,7 +3158,7 @@ class AppLocalizationsAs extends AppLocalizations {
   String get something_went_wrong => 'কিবা ভুল হ\'ল';
 
   @override
-  String get startup_failed => 'Mangayomi আৰম্ভ হ\'ব নোৱাৰিলে';
+  String get startup_failed => 'MangaNest আৰম্ভ হ\'ব নোৱাৰিলে';
 
   @override
   String sources_with_no_results(int count) {
@@ -3405,7 +3406,7 @@ class AppLocalizationsAs extends AppLocalizations {
   String get error_reports_report => 'GitHub ত ৰিপ\'ৰ্ট কৰক';
 
   @override
-  String get error_reports_banner => 'Mangayomi ত এটা ত্ৰুটি হ\'ল';
+  String get error_reports_banner => 'MangaNest ত এটা ত্ৰুটি হ\'ল';
 
   @override
   String get error_reports_banner_action => 'চাওক';
@@ -3421,7 +3422,7 @@ class AppLocalizationsAs extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      'এইটো এটা এক্সটেনশনৰ পৰা আহিছে, Mangayomi-ৰ পৰা নহয়। যিটো ৰেপজিটৰিৰ পৰা আপুনি এই উৎস ইনষ্টল কৰিছিল সেই ৰেপজিটৰিৰ পৰিচালকসকলে ইয়াক পৰিচালনা কৰে, সেয়েহে সমাধান তাতেই হ\'ব লাগিব।';
+      'এইটো এটা এক্সটেনশনৰ পৰা আহিছে, MangaNest-ৰ পৰা নহয়। যিটো ৰেপজিটৰিৰ পৰা আপুনি এই উৎস ইনষ্টল কৰিছিল সেই ৰেপজিটৰিৰ পৰিচালকসকলে ইয়াক পৰিচালনা কৰে, সেয়েহে সমাধান তাতেই হ\'ব লাগিব।';
 
   @override
   String get error_reports_already_reported => 'ইতিমধ্যে ৰিপৰ্ট কৰা হৈছে';
@@ -3435,14 +3436,14 @@ class AppLocalizationsAs extends AppLocalizations {
       'শ্বেয়াৰ উপলব্ধ নহয়, ক্লিপব\'ৰ্ডলৈ কপি কৰা হ\'ল।';
 
   @override
-  String get onboarding_title => 'Mangayomi লৈ স্বাগতম';
+  String get onboarding_title => 'MangaNest লৈ স্বাগতম';
 
   @override
   String get onboarding_language_title => 'আপোনাৰ ভাষা বাছক';
 
   @override
   String get onboarding_language_body =>
-      'Mangayomi এই ভাষাত দেখুওৱা হ\'ব। পিছত ৰূপ-সজ্জাত সলনি কৰিব পাৰে।';
+      'MangaNest এই ভাষাত দেখুওৱা হ\'ব। পিছত ৰূপ-সজ্জাত সলনি কৰিব পাৰে।';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3777,7 +3778,7 @@ class AppLocalizationsAs extends AppLocalizations {
   String get genre_rows => 'ধৰণ অনুসৰি শাৰী';
 
   @override
-  String get share_backup_file => 'Mangayomi বেকআপ শ্বেয়াৰ কৰক';
+  String get share_backup_file => 'MangaNest বেকআপ শ্বেয়াৰ কৰক';
 
   @override
   String get close => 'বন্ধ কৰক';

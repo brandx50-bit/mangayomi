@@ -1,0 +1,9 @@
+MangaNest is an independent fork of Mangayomi.
+Copyright 2023 Moustapha Kodjo Amadou and Mangayomi contributors.
+Original project: https://github.com/kodjodevf/mangayomi
+Licensed under the Apache License, Version 2.0. See manganest_LICENSE.txt.
+
+2026-11-05: Modified by brandx50-bit for placeholder MangaNest branding,
+an independent Android application ID, teal default theme, separate Android
+storage folders, and fork-specific updates and support links.
+The original developers do not endorse this fork.

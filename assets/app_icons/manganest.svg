@@ -1,0 +1,6 @@
+<!-- Created for MangaNest placeholder branding, 2026-11-05. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect x="16" y="16" width="480" height="480" rx="64" fill="#0B3438"/>
+  <path d="M104 153C161 137 209 158 246 183V365C203 335 154 322 104 338Z M266 183C303 158 351 137 408 153V338C358 322 309 335 266 365Z" fill="white"/>
+  <path d="M133 206C164 200 195 211 215 222 M133 246C164 240 195 251 215 262 M297 222C317 211 348 200 379 206 M297 262C317 251 348 240 379 246" fill="none" stroke="#3CCAB7" stroke-width="13" stroke-linecap="round"/>
+</svg>

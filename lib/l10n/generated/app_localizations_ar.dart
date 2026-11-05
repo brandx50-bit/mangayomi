@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -510,7 +511,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get open_source_licenses_subtitle =>
-      'الحزم التي بُنيت بها Mangayomi وتراخيصها';
+      'الحزم التي بُنيت بها MangaNest وتراخيصها';
 
   @override
   String get open_source_licenses_empty => 'لا تتوفر معلومات عن التراخيص.';
@@ -2595,10 +2596,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get tracked => 'تتبع';
 
   @override
-  String get auth_unlock_msg => 'المصادقة لفتح قفل Mangayomi';
+  String get auth_unlock_msg => 'المصادقة لفتح قفل MangaNest';
 
   @override
-  String get app_locked => 'Mangayomi مقفول';
+  String get app_locked => 'MangaNest مقفول';
 
   @override
   String get auth_to_continue => 'المصادقة للمتابعة';
@@ -3158,7 +3159,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get something_went_wrong => 'حدث خطأ ما';
 
   @override
-  String get startup_failed => 'تعذر على Mangayomi إكمال بدء التشغيل';
+  String get startup_failed => 'تعذر على MangaNest إكمال بدء التشغيل';
 
   @override
   String sources_with_no_results(int count) {
@@ -3406,7 +3407,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get error_reports_report => 'إبلاغ على GitHub';
 
   @override
-  String get error_reports_banner => 'واجه Mangayomi خطأ';
+  String get error_reports_banner => 'واجه MangaNest خطأ';
 
   @override
   String get error_reports_banner_action => 'عرض';
@@ -3422,7 +3423,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      'هذا الخطأ ناتج عن إضافة وليس من تطبيق Mangayomi. تتم كتابة الإضافات وصيانتها بواسطة مسؤولي المستودع الذي قمت بتثبيت هذا المصدر منه، لذا يجب إصلاحه هناك. اسم المصدر وما كنت تفتحه هي تفاصيل مفيدة لتقديمها لهم.';
+      'هذا الخطأ ناتج عن إضافة وليس من تطبيق MangaNest. تتم كتابة الإضافات وصيانتها بواسطة مسؤولي المستودع الذي قمت بتثبيت هذا المصدر منه، لذا يجب إصلاحه هناك. اسم المصدر وما كنت تفتحه هي تفاصيل مفيدة لتقديمها لهم.';
 
   @override
   String get error_reports_already_reported => 'تم الإبلاغ مسبقاً';
@@ -3436,14 +3437,14 @@ class AppLocalizationsAr extends AppLocalizations {
       'المشاركة غير متاحة، تم النسخ إلى الحافظة.';
 
   @override
-  String get onboarding_title => 'مرحباً بك في Mangayomi';
+  String get onboarding_title => 'مرحباً بك في MangaNest';
 
   @override
   String get onboarding_language_title => 'اختر لغتك';
 
   @override
   String get onboarding_language_body =>
-      'يُعرض Mangayomi بهذه اللغة. يمكنك تغييرها لاحقًا من المظهر.';
+      'يُعرض MangaNest بهذه اللغة. يمكنك تغييرها لاحقًا من المظهر.';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3780,7 +3781,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get genre_rows => 'صفوف التصنيفات';
 
   @override
-  String get share_backup_file => 'مشاركة نسخة Mangayomi الاحتياطية';
+  String get share_backup_file => 'مشاركة نسخة MangaNest الاحتياطية';
 
   @override
   String get close => 'إغلاق';

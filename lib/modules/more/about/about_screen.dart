@@ -1,4 +1,6 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 import 'dart:io';
+import 'package:mangayomi/utils/app_brand.dart';
 
 import 'package:flutter/material.dart';
 import 'package:mangayomi/modules/widgets/error_state.dart';
@@ -50,6 +52,11 @@ class AboutScreen extends ConsumerWidget {
                         color: context.shiori.color.fg,
                         fit: BoxFit.cover,
                         height: 88,
+                      ),
+                      Text(AppBrand.name, style: context.shiori.text.screenTitle),
+                      const Padding(
+                        padding: EdgeInsets.symmetric(horizontal: ShioriSpace.s24),
+                        child: Text(AppBrand.attribution, textAlign: TextAlign.center),
                       ),
                       Text(
                         l10n.beta_version(data.version),
@@ -121,12 +128,12 @@ class AboutScreen extends ConsumerWidget {
                     IconButton(
                       tooltip: 'GitHub',
                       onPressed: () => _launchInBrowser(
-                        Uri.parse('https://github.com/kodjodevf/mangayomi'),
+                        Uri.parse(AppBrand.repositoryUrl),
                       ),
                       icon: const FaIcon(FontAwesomeIcons.github),
                     ),
                     IconButton(
-                      tooltip: 'Discord',
+                      tooltip: 'Mangayomi community',
                       onPressed: () => _launchInBrowser(
                         Uri.parse('https://discord.com/invite/EjfBuYahsP'),
                       ),

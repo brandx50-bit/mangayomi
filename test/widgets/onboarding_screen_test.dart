@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:shiori/shiori.dart';
@@ -158,7 +159,7 @@ void main() {
       tester,
     ) async {
       await pump(tester);
-      expect(find.text('Welcome to Mangayomi'), findsOneWidget);
+      expect(find.text('Welcome to MangaNest'), findsOneWidget);
       for (final label in ['Manga', 'Anime', 'Novel']) {
         expect(find.widgetWithText(FilterChip, label), findsOneWidget);
       }
@@ -419,7 +420,7 @@ void main() {
         find.widgetWithIcon(IconButton, Symbols.arrow_back_rounded),
       );
       await tester.pumpAndSettle();
-      expect(find.text('Welcome to Mangayomi'), findsOneWidget);
+      expect(find.text('Welcome to MangaNest'), findsOneWidget);
 
       await tester.tap(
         find.widgetWithIcon(IconButton, Symbols.arrow_back_rounded),
@@ -449,7 +450,7 @@ void main() {
       );
       await tester.pumpAndSettle();
       expect(find.text('Your libraries'), findsNothing);
-      expect(find.text('Welcome to Mangayomi'), findsOneWidget);
+      expect(find.text('Welcome to MangaNest'), findsOneWidget);
     });
   });
 

@@ -1,0 +1,65 @@
+# Added for the independent MangaNest Android fork (2026-11-05).
+name: Android APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: manganest-android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  android:
+    name: Check and build MangaNest
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install dependencies and generate localizations
+        run: |
+          flutter pub get
+          flutter gen-l10n
+
+      - name: Analyze
+        run: flutter analyze --no-fatal-infos --no-fatal-warnings
+
+      - name: Check onboarding, updates, and crash report links
+        run: flutter test test/widgets/onboarding_screen_test.dart test/widgets/onboarding_back_button_test.dart test/services/check_for_update_test.dart test/services/crash_report_test.dart
+
+      - name: Build installable test APK
+        run: flutter build apk --debug
+
+      - name: Name APK
+        run: cp build/app/outputs/flutter-apk/app-debug.apk build/app/outputs/flutter-apk/MangaNest-android-debug.apk
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: MangaNest-android-debug
+          path: build/app/outputs/flutter-apk/MangaNest-android-debug.apk
+          if-no-files-found: error
+          retention-days: 14

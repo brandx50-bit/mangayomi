@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -496,7 +497,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get open_source_licenses_subtitle =>
-      'Mangayomi\'nin üzerine inşa edildiği paketler ve lisansları';
+      'MangaNest\'nin üzerine inşa edildiği paketler ve lisansları';
 
   @override
   String get open_source_licenses_empty => 'Lisans bilgisi mevcut değil.';
@@ -2597,10 +2598,10 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get auth_unlock_msg =>
-      'Mangayomi\'yi kilitlemek için kimliğinizi doğrulayın';
+      'MangaNest\'yi kilitlemek için kimliğinizi doğrulayın';
 
   @override
-  String get app_locked => 'Mangayomi kilitli';
+  String get app_locked => 'MangaNest kilitli';
 
   @override
   String get auth_to_continue => 'Devam etmek için kimliğinizi doğrulayın';
@@ -3168,7 +3169,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get something_went_wrong => 'Bir şeyler ters gitti';
 
   @override
-  String get startup_failed => 'Mangayomi başlatılamadı';
+  String get startup_failed => 'MangaNest başlatılamadı';
 
   @override
   String sources_with_no_results(int count) {
@@ -3416,7 +3417,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get error_reports_report => 'GitHub\'da Bildir';
 
   @override
-  String get error_reports_banner => 'Mangayomi bir hatayla karşılaştı';
+  String get error_reports_banner => 'MangaNest bir hatayla karşılaştı';
 
   @override
   String get error_reports_banner_action => 'Görüntüle';
@@ -3432,7 +3433,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      'Bu hata Mangayomi\'den değil, bir uzantıdan kaynaklandı. Uzantılar bu kaynağı yüklediğiniz deponun yöneticileri tarafından yazılır ve sürdürülür, bu nedenle düzeltmenin oraya yapılması gerekir.';
+      'Bu hata MangaNest\'den değil, bir uzantıdan kaynaklandı. Uzantılar bu kaynağı yüklediğiniz deponun yöneticileri tarafından yazılır ve sürdürülür, bu nedenle düzeltmenin oraya yapılması gerekir.';
 
   @override
   String get error_reports_already_reported => 'Zaten bildirildi';
@@ -3446,14 +3447,14 @@ class AppLocalizationsTr extends AppLocalizations {
       'Paylaşım kullanılamıyor, panoya kopyalandı.';
 
   @override
-  String get onboarding_title => 'Mangayomi\'ye Hoş Geldiniz';
+  String get onboarding_title => 'MangaNest\'ye Hoş Geldiniz';
 
   @override
   String get onboarding_language_title => 'Dilinizi seçin';
 
   @override
   String get onboarding_language_body =>
-      'Mangayomi bu dilde gösterilir. Daha sonra Görünüm bölümünden değiştirebilirsiniz.';
+      'MangaNest bu dilde gösterilir. Daha sonra Görünüm bölümünden değiştirebilirsiniz.';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3790,7 +3791,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get genre_rows => 'Tür satırları';
 
   @override
-  String get share_backup_file => 'Mangayomi yedeğini paylaş';
+  String get share_backup_file => 'MangaNest yedeğini paylaş';
 
   @override
   String get close => 'Kapat';

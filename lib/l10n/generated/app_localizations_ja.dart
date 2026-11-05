@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -491,7 +492,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get open_source_licenses => 'オープンソースライセンス';
 
   @override
-  String get open_source_licenses_subtitle => 'Mangayomiが使用しているパッケージとそのライセンス';
+  String get open_source_licenses_subtitle => 'MangaNestが使用しているパッケージとそのライセンス';
 
   @override
   String get open_source_licenses_empty => 'ライセンス情報はありません。';
@@ -2535,10 +2536,10 @@ class AppLocalizationsJa extends AppLocalizations {
   String get tracked => '追跡中';
 
   @override
-  String get auth_unlock_msg => 'Mangayomiのロックを解除するために認証してください';
+  String get auth_unlock_msg => 'MangaNestのロックを解除するために認証してください';
 
   @override
-  String get app_locked => 'Mangayomiはロックされています';
+  String get app_locked => 'MangaNestはロックされています';
 
   @override
   String get auth_to_continue => '続行するために認証してください';
@@ -3098,7 +3099,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get something_went_wrong => '問題が発生しました';
 
   @override
-  String get startup_failed => 'Mangayomiの起動に失敗しました';
+  String get startup_failed => 'MangaNestの起動に失敗しました';
 
   @override
   String sources_with_no_results(int count) {
@@ -3349,7 +3350,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      'これはMangayomiではなく拡張機能に起因するエラーです。拡張機能はインストール元のリポジトリ管理者によって作成・管理されているため、そちらで修正する必要があります。ソース名と開こうとした項目を伝えると役立ちます。';
+      'これはMangaNestではなく拡張機能に起因するエラーです。拡張機能はインストール元のリポジトリ管理者によって作成・管理されているため、そちらで修正する必要があります。ソース名と開こうとした項目を伝えると役立ちます。';
 
   @override
   String get error_reports_already_reported => '報告済み';
@@ -3362,14 +3363,14 @@ class AppLocalizationsJa extends AppLocalizations {
   String get share_unavailable_copied => '共有機能が利用できないためクリップボードにコピーしました。';
 
   @override
-  String get onboarding_title => 'Mangayomiへようこそ';
+  String get onboarding_title => 'MangaNestへようこそ';
 
   @override
   String get onboarding_language_title => '言語を選択';
 
   @override
   String get onboarding_language_body =>
-      'Mangayomi はこの言語で表示されます。あとで「外観」から変更できます。';
+      'MangaNest はこの言語で表示されます。あとで「外観」から変更できます。';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3696,7 +3697,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get genre_rows => 'ジャンルの行';
 
   @override
-  String get share_backup_file => 'Mangayomi のバックアップを共有';
+  String get share_backup_file => 'MangaNest のバックアップを共有';
 
   @override
   String get close => '閉じる';

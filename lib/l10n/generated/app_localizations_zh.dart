@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -482,7 +483,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get open_source_licenses => '开源许可证';
 
   @override
-  String get open_source_licenses_subtitle => 'Mangayomi 所使用的软件包及其许可证';
+  String get open_source_licenses_subtitle => 'MangaNest 所使用的软件包及其许可证';
 
   @override
   String get open_source_licenses_empty => '没有可用的许可证信息。';
@@ -2501,10 +2502,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tracked => '已追踪';
 
   @override
-  String get auth_unlock_msg => '验证以解锁Mangayomi';
+  String get auth_unlock_msg => '验证以解锁MangaNest';
 
   @override
-  String get app_locked => 'Mangayomi已锁定';
+  String get app_locked => 'MangaNest已锁定';
 
   @override
   String get auth_to_continue => '验证以继续';
@@ -3045,7 +3046,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get something_went_wrong => '出错了';
 
   @override
-  String get startup_failed => 'Mangayomi 无法完成启动';
+  String get startup_failed => 'MangaNest 无法完成启动';
 
   @override
   String sources_with_no_results(int count) {
@@ -3279,7 +3280,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get error_reports_report => '在 GitHub 上反馈';
 
   @override
-  String get error_reports_banner => 'Mangayomi 遇到了一个错误';
+  String get error_reports_banner => 'MangaNest 遇到了一个错误';
 
   @override
   String get error_reports_banner_action => '查看';
@@ -3295,7 +3296,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      '此错误来自扩展插件，而非 Mangayomi 本身。扩展由插件仓库的维护者编写和维护，因此需要在插件仓库中修复。请向他们提供插件名称和当时正在打开的内容。';
+      '此错误来自扩展插件，而非 MangaNest 本身。扩展由插件仓库的维护者编写和维护，因此需要在插件仓库中修复。请向他们提供插件名称和当时正在打开的内容。';
 
   @override
   String get error_reports_already_reported => '已报告';
@@ -3308,13 +3309,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get share_unavailable_copied => '此平台不支持分享，已复制到剪贴板。';
 
   @override
-  String get onboarding_title => '欢迎使用 Mangayomi';
+  String get onboarding_title => '欢迎使用 MangaNest';
 
   @override
   String get onboarding_language_title => '选择语言';
 
   @override
-  String get onboarding_language_body => 'Mangayomi 将以此语言显示。之后可在“外观”中更改。';
+  String get onboarding_language_body => 'MangaNest 将以此语言显示。之后可在“外观”中更改。';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3637,7 +3638,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get genre_rows => '类型行';
 
   @override
-  String get share_backup_file => '分享 Mangayomi 备份';
+  String get share_backup_file => '分享 MangaNest 备份';
 
   @override
   String get close => '关闭';

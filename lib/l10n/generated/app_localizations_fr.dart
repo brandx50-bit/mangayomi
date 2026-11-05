@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -501,7 +502,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get open_source_licenses_subtitle =>
-      'Les packages utilisés par Mangayomi et leurs licences';
+      'Les packages utilisés par MangaNest et leurs licences';
 
   @override
   String get open_source_licenses_empty =>
@@ -2624,10 +2625,10 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get auth_unlock_msg =>
-      'Authentifiez-vous pour déverrouiller Mangayomi';
+      'Authentifiez-vous pour déverrouiller MangaNest';
 
   @override
-  String get app_locked => 'Mangayomi est verrouillé';
+  String get app_locked => 'MangaNest est verrouillé';
 
   @override
   String get auth_to_continue => 'Authentifiez-vous pour continuer';
@@ -3197,7 +3198,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get something_went_wrong => 'Une erreur est survenue';
 
   @override
-  String get startup_failed => 'Mangayomi n\'a pas pu terminer son démarrage';
+  String get startup_failed => 'MangaNest n\'a pas pu terminer son démarrage';
 
   @override
   String sources_with_no_results(int count) {
@@ -3454,7 +3455,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get error_reports_report => 'Signaler sur GitHub';
 
   @override
-  String get error_reports_banner => 'Mangayomi a rencontré une erreur';
+  String get error_reports_banner => 'MangaNest a rencontré une erreur';
 
   @override
   String get error_reports_banner_action => 'Voir';
@@ -3470,7 +3471,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      'Ceci provient d\'une extension et non de Mangayomi. Les extensions sont développées et maintenues par les gestionnaires du dépôt depuis lequel vous avez installé cette source, la correction doit donc y être apportée. Le nom de la source et ce que vous ouvriez sont des détails utiles à leur fournir.';
+      'Ceci provient d\'une extension et non de MangaNest. Les extensions sont développées et maintenues par les gestionnaires du dépôt depuis lequel vous avez installé cette source, la correction doit donc y être apportée. Le nom de la source et ce que vous ouvriez sont des détails utiles à leur fournir.';
 
   @override
   String get error_reports_already_reported => 'Déjà signalé';
@@ -3484,14 +3485,14 @@ class AppLocalizationsFr extends AppLocalizations {
       'Le partage n\'est pas disponible sur cette plateforme, le lien a donc été copié dans le presse-papiers.';
 
   @override
-  String get onboarding_title => 'Bienvenue sur Mangayomi';
+  String get onboarding_title => 'Bienvenue sur MangaNest';
 
   @override
   String get onboarding_language_title => 'Choisissez votre langue';
 
   @override
   String get onboarding_language_body =>
-      'Mangayomi s\'affiche dans cette langue. Vous pourrez la changer plus tard dans Apparence.';
+      'MangaNest s\'affiche dans cette langue. Vous pourrez la changer plus tard dans Apparence.';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3564,7 +3565,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get onboarding_body =>
-      'Mangayomi ne contient aucune source intégrée. Ajoutez un dépôt pour rendre ses extensions disponibles à l\'installation et à l\'exploration.';
+      'MangaNest ne contient aucune source intégrée. Ajoutez un dépôt pour rendre ses extensions disponibles à l\'installation et à l\'exploration.';
 
   @override
   String get onboarding_add => 'Ajouter un dépôt';
@@ -3836,7 +3837,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get genre_rows => 'Rangées par genre';
 
   @override
-  String get share_backup_file => 'Partager le fichier de sauvegarde Mangayomi';
+  String get share_backup_file => 'Partager le fichier de sauvegarde MangaNest';
 
   @override
   String get close => 'Fermer';

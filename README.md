@@ -1,3 +1,17 @@
+<!-- Modified for the MangaNest Android fork (2026-11-05). -->
+# MangaNest — Android fork
+
+Placeholder branding for an independent Mangayomi fork.
+
+- App: **MangaNest**
+- Android ID: **com.brandx50.manganest**
+- Build: [Android APK workflow](https://github.com/brandx50-bit/mangayomi/actions/workflows/android-apk.yml)
+- Details and test APK signing notes: [FORK_CHANGES.md](FORK_CHANGES.md)
+
+The original project documentation follows. Original-project links below refer to upstream Mangayomi.
+
+---
+
 <p align="center">
  <img width=200px height=200px src="assets/app_icons/icon-red.png"/>
 </p>

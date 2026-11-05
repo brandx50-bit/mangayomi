@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 import 'dart:convert';
 import 'dart:io';
 
@@ -591,7 +592,7 @@ void main() {
       final url = buildIssueUrl(report, appVersion: '0.8.8', device: 'Pixel 5');
 
       expect(url.host, 'github.com');
-      expect(url.path, '/kodjodevf/mangayomi/issues/new');
+      expect(url.path, '/brandx50-bit/mangayomi/issues/new');
       expect(url.queryParameters['template'], 'report_issue.yml');
       expect(url.queryParameters['mangayomi-version'], '0.8.8');
       expect(url.queryParameters['device'], 'Pixel 5');

@@ -1,4 +1,6 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 import 'dart:async';
+import 'package:mangayomi/utils/app_brand.dart';
 import 'dart:convert';
 import 'dart:io';
 
@@ -81,6 +83,11 @@ void main(List<String> args) async {
   runZonedGuarded(
     () async {
       WidgetsFlutterBinding.ensureInitialized();
+      LicenseRegistry.addLicense(() async* {
+        final license = await rootBundle.loadString('assets/manganest_LICENSE.txt');
+        final notice = await rootBundle.loadString('assets/manganest_NOTICE.txt');
+        yield LicenseEntryWithLineBreaks(['Mangayomi'], '$notice\n\n$license');
+      });
 
       // Cap the decoded image cache so a large library grid can't fill the
       // default 100 MB ceiling with full-resolution covers and OOM constrained
@@ -204,7 +211,7 @@ class _StartupErrorApp extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
                 const Text(
-                  'Failed to start Mangayomi',
+                  'Failed to start MangaNest',
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
                 if (startupErrorHint(error) case final hint?) ...[
@@ -514,7 +521,7 @@ class _MyAppState extends ConsumerState<MyApp>
       routeInformationParser: router.routeInformationParser,
       routerDelegate: router.routerDelegate,
       routeInformationProvider: router.routeInformationProvider,
-      title: 'MangaYomi',
+      title: AppBrand.name,
       scrollBehavior: AllowScrollBehavior(),
     );
   }

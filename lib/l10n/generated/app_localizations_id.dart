@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -500,7 +501,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get open_source_licenses_subtitle =>
-      'Paket yang digunakan untuk membangun Mangayomi beserta lisensinya';
+      'Paket yang digunakan untuk membangun MangaNest beserta lisensinya';
 
   @override
   String get open_source_licenses_empty => 'Informasi lisensi tidak tersedia.';
@@ -2594,10 +2595,10 @@ class AppLocalizationsId extends AppLocalizations {
   String get tracked => 'Dilacak';
 
   @override
-  String get auth_unlock_msg => 'Autentikasi untuk membuka kunci Mangayomi';
+  String get auth_unlock_msg => 'Autentikasi untuk membuka kunci MangaNest';
 
   @override
-  String get app_locked => 'Mangayomi terkunci';
+  String get app_locked => 'MangaNest terkunci';
 
   @override
   String get auth_to_continue => 'Autentikasi untuk melanjutkan';
@@ -3163,7 +3164,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get something_went_wrong => 'Terjadi kesalahan';
 
   @override
-  String get startup_failed => 'Mangayomi gagal menyelesaikan peluncuran';
+  String get startup_failed => 'MangaNest gagal menyelesaikan peluncuran';
 
   @override
   String sources_with_no_results(int count) {
@@ -3413,7 +3414,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get error_reports_report => 'Laporkan di GitHub';
 
   @override
-  String get error_reports_banner => 'Mangayomi mengalami kesalahan';
+  String get error_reports_banner => 'MangaNest mengalami kesalahan';
 
   @override
   String get error_reports_banner_action => 'Lihat';
@@ -3429,7 +3430,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      'Ini berasal dari ekstensi, bukan dari Mangayomi. Ekstensi ditulis dan dikelola oleh pengelola repositori tempat Anda memasang sumber ini, jadi perbaikan harus dilakukan di sana. Nama sumber dan apa yang Anda buka adalah informasi yang berguna untuk diberikan.';
+      'Ini berasal dari ekstensi, bukan dari MangaNest. Ekstensi ditulis dan dikelola oleh pengelola repositori tempat Anda memasang sumber ini, jadi perbaikan harus dilakukan di sana. Nama sumber dan apa yang Anda buka adalah informasi yang berguna untuk diberikan.';
 
   @override
   String get error_reports_already_reported => 'Sudah dilaporkan';
@@ -3443,14 +3444,14 @@ class AppLocalizationsId extends AppLocalizations {
       'Berbagi tidak tersedia, disalin ke papan klip.';
 
   @override
-  String get onboarding_title => 'Selamat datang di Mangayomi';
+  String get onboarding_title => 'Selamat datang di MangaNest';
 
   @override
   String get onboarding_language_title => 'Pilih bahasa Anda';
 
   @override
   String get onboarding_language_body =>
-      'Mangayomi ditampilkan dalam bahasa ini. Anda bisa mengubahnya nanti di Tampilan.';
+      'MangaNest ditampilkan dalam bahasa ini. Anda bisa mengubahnya nanti di Tampilan.';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3790,7 +3791,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get genre_rows => 'Baris genre';
 
   @override
-  String get share_backup_file => 'Bagikan cadangan Mangayomi';
+  String get share_backup_file => 'Bagikan cadangan MangaNest';
 
   @override
   String get close => 'Tutup';

@@ -1,4 +1,6 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 import 'dart:convert';
+import 'package:mangayomi/utils/app_brand.dart';
 import 'dart:developer';
 import 'dart:io';
 
@@ -152,7 +154,7 @@ Future<UpdateInfo?> _fetchLatestRelease() async {
     final http = MClient.init(reqcopyWith: {'useDartHttpClient': true});
     final res = await http.get(
       Uri.parse(
-        'https://api.github.com/repos/kodjodevf/Mangayomi/releases/latest',
+        'https://api.github.com/repos/${AppBrand.repository}/releases/latest',
       ),
       headers: {'Accept': 'application/vnd.github.v3+json'},
     );

@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -61,7 +62,7 @@ void main() {
     // Past the language, onto the libraries.
     await tester.tap(find.text('Next'));
     await tester.pumpAndSettle();
-    expect(find.text('Welcome to Mangayomi'), findsOneWidget);
+    expect(find.text('Welcome to MangaNest'), findsOneWidget);
 
     await systemBack(tester);
     expect(find.text('Choose your language'), findsOneWidget);

@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
@@ -912,7 +913,7 @@ abstract class AppLocalizations {
   /// No description provided for @open_source_licenses_subtitle.
   ///
   /// In en, this message translates to:
-  /// **'The packages Mangayomi is built with, and their licenses'**
+  /// **'The packages MangaNest is built with, and their licenses'**
   String get open_source_licenses_subtitle;
 
   /// No description provided for @open_source_licenses_empty.
@@ -4698,13 +4699,13 @@ abstract class AppLocalizations {
   /// No description provided for @auth_unlock_msg.
   ///
   /// In en, this message translates to:
-  /// **'Authenticate to unlock Mangayomi'**
+  /// **'Authenticate to unlock MangaNest'**
   String get auth_unlock_msg;
 
   /// No description provided for @app_locked.
   ///
   /// In en, this message translates to:
-  /// **'Mangayomi is locked'**
+  /// **'MangaNest is locked'**
   String get app_locked;
 
   /// No description provided for @auth_to_continue.
@@ -5742,7 +5743,7 @@ abstract class AppLocalizations {
   /// No description provided for @startup_failed.
   ///
   /// In en, this message translates to:
-  /// **'Mangayomi could not finish starting up'**
+  /// **'MangaNest could not finish starting up'**
   String get startup_failed;
 
   /// Header of the collapsed group in global search holding every source that failed or found nothing.
@@ -6120,7 +6121,7 @@ abstract class AppLocalizations {
   /// No description provided for @error_reports_banner.
   ///
   /// In en, this message translates to:
-  /// **'Mangayomi ran into an error'**
+  /// **'MangaNest ran into an error'**
   String get error_reports_banner;
 
   /// No description provided for @error_reports_banner_action.
@@ -6150,7 +6151,7 @@ abstract class AppLocalizations {
   /// No description provided for @error_reports_extension_failure.
   ///
   /// In en, this message translates to:
-  /// **'This came from an extension, not from Mangayomi. Extensions are written and maintained by whoever runs the repository you installed this source from, so a fix has to go there. The source name and what you were opening are the useful details to give them.'**
+  /// **'This came from an extension, not from MangaNest. Extensions are written and maintained by whoever runs the repository you installed this source from, so a fix has to go there. The source name and what you were opening are the useful details to give them.'**
   String get error_reports_extension_failure;
 
   /// No description provided for @error_reports_already_reported.
@@ -6174,7 +6175,7 @@ abstract class AppLocalizations {
   /// No description provided for @onboarding_title.
   ///
   /// In en, this message translates to:
-  /// **'Welcome to Mangayomi'**
+  /// **'Welcome to MangaNest'**
   String get onboarding_title;
 
   /// No description provided for @onboarding_language_title.
@@ -6186,7 +6187,7 @@ abstract class AppLocalizations {
   /// No description provided for @onboarding_language_body.
   ///
   /// In en, this message translates to:
-  /// **'Mangayomi is shown in this language. You can change it later under Appearance.'**
+  /// **'MangaNest is shown in this language. You can change it later under Appearance.'**
   String get onboarding_language_body;
 
   /// No description provided for @onboarding_nav_grouped_body.
@@ -6306,7 +6307,7 @@ abstract class AppLocalizations {
   /// No description provided for @onboarding_body.
   ///
   /// In en, this message translates to:
-  /// **'Mangayomi comes with no sources of its own. Add a repository and the extensions it holds become available to install and browse.'**
+  /// **'MangaNest comes with no sources of its own. Add a repository and the extensions it holds become available to install and browse.'**
   String get onboarding_body;
 
   /// No description provided for @onboarding_add.
@@ -6786,7 +6787,7 @@ abstract class AppLocalizations {
   /// No description provided for @share_backup_file.
   ///
   /// In en, this message translates to:
-  /// **'Share Mangayomi backup file'**
+  /// **'Share MangaNest backup file'**
   String get share_backup_file;
 
   /// No description provided for @close.

@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -498,7 +499,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get open_source_licenses_subtitle =>
-      'वे पैकेज जिनसे Mangayomi बना है, और उनके लाइसेंस';
+      'वे पैकेज जिनसे MangaNest बना है, और उनके लाइसेंस';
 
   @override
   String get open_source_licenses_empty =>
@@ -3159,7 +3160,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get something_went_wrong => 'कुछ गलत हो गया';
 
   @override
-  String get startup_failed => 'Mangayomi प्रारंभ नहीं हो सका';
+  String get startup_failed => 'MangaNest प्रारंभ नहीं हो सका';
 
   @override
   String sources_with_no_results(int count) {
@@ -3408,7 +3409,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get error_reports_report => 'GitHub पर रिपोर्ट करें';
 
   @override
-  String get error_reports_banner => 'Mangayomi में त्रुटि आई';
+  String get error_reports_banner => 'MangaNest में त्रुटि आई';
 
   @override
   String get error_reports_banner_action => 'देखें';
@@ -3424,7 +3425,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      'यह त्रुटि किसी एक्सटेंशन से आई है, Mangayomi से नहीं। एक्सटेंशन उस रिपॉजिटरी के प्रबंधकों द्वारा लिखे और बनाए रखे जाते हैं जहाँ से आपने यह स्रोत स्थापित किया है, इसलिए सुधार वहीं होना चाहिए।';
+      'यह त्रुटि किसी एक्सटेंशन से आई है, MangaNest से नहीं। एक्सटेंशन उस रिपॉजिटरी के प्रबंधकों द्वारा लिखे और बनाए रखे जाते हैं जहाँ से आपने यह स्रोत स्थापित किया है, इसलिए सुधार वहीं होना चाहिए।';
 
   @override
   String get error_reports_already_reported =>
@@ -3439,14 +3440,14 @@ class AppLocalizationsHi extends AppLocalizations {
       'साझाकरण उपलब्ध नहीं है, क्लिपबोर्ड पर कॉपी किया गया।';
 
   @override
-  String get onboarding_title => 'Mangayomi में आपका स्वागत है';
+  String get onboarding_title => 'MangaNest में आपका स्वागत है';
 
   @override
   String get onboarding_language_title => 'अपनी भाषा चुनें';
 
   @override
   String get onboarding_language_body =>
-      'Mangayomi इसी भाषा में दिखेगा। आप इसे बाद में रूप-रंग में बदल सकते हैं।';
+      'MangaNest इसी भाषा में दिखेगा। आप इसे बाद में रूप-रंग में बदल सकते हैं।';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3783,7 +3784,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get genre_rows => 'शैली पंक्तियाँ';
 
   @override
-  String get share_backup_file => 'Mangayomi बैकअप साझा करें';
+  String get share_backup_file => 'MangaNest बैकअप साझा करें';
 
   @override
   String get close => 'बंद करें';

@@ -1,6 +1,6 @@
+# Modified for the MangaNest Android fork (2026-11-05).
 name: mangayomi
-description: Free and open source manga reader and anime streaming
-  cross-plateform app inspired by Tachiyomi and Aniyomi.
+description: MangaNest, an independent Android fork of Mangayomi with placeholder branding.
 publish_to: "none"
 version: 0.9.95+128
 
@@ -165,7 +165,7 @@ flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
   remove_alpha_ios: true
-  image_path: "assets/app_icons/icon-red.png"
+  image_path: "assets/app_icons/manganest.png"
   min_sdk_android: 21
   windows:
     generate: true

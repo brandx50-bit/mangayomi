@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -484,7 +485,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get open_source_licenses => '오픈 소스 라이선스';
 
   @override
-  String get open_source_licenses_subtitle => 'Mangayomi를 구성하는 패키지와 각 라이선스';
+  String get open_source_licenses_subtitle => 'MangaNest를 구성하는 패키지와 각 라이선스';
 
   @override
   String get open_source_licenses_empty => '라이선스 정보가 없습니다.';
@@ -2533,10 +2534,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get tracked => '트래킹됨';
 
   @override
-  String get auth_unlock_msg => 'Mangayomi 잠금을 해제하려면 인증하세요';
+  String get auth_unlock_msg => 'MangaNest 잠금을 해제하려면 인증하세요';
 
   @override
-  String get app_locked => 'Mangayomi가 잠겨있습니다';
+  String get app_locked => 'MangaNest가 잠겨있습니다';
 
   @override
   String get auth_to_continue => '계속하려면 인증하세요';
@@ -3089,7 +3090,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get something_went_wrong => '문제가 발생했습니다';
 
   @override
-  String get startup_failed => 'Mangayomi를 시작할 수 없습니다';
+  String get startup_failed => 'MangaNest를 시작할 수 없습니다';
 
   @override
   String sources_with_no_results(int count) {
@@ -3335,7 +3336,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get error_reports_report => 'GitHub에 보고하기';
 
   @override
-  String get error_reports_banner => 'Mangayomi에서 오류가 발생했습니다';
+  String get error_reports_banner => 'MangaNest에서 오류가 발생했습니다';
 
   @override
   String get error_reports_banner_action => '확인';
@@ -3351,7 +3352,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      '이 오류는 Mangayomi 앱이 아닌 확장 프로그램에서 발생했습니다. 확장 프로그램은 설치한 저장소의 관리자가 유지보수하므로 해당 저장소에 수정 요청을 해야 합니다. 소스 이름과 열려던 항목에 대한 세부 정보를 제공하면 유용합니다.';
+      '이 오류는 MangaNest 앱이 아닌 확장 프로그램에서 발생했습니다. 확장 프로그램은 설치한 저장소의 관리자가 유지보수하므로 해당 저장소에 수정 요청을 해야 합니다. 소스 이름과 열려던 항목에 대한 세부 정보를 제공하면 유용합니다.';
 
   @override
   String get error_reports_already_reported => '이미 보고됨';
@@ -3365,14 +3366,14 @@ class AppLocalizationsKo extends AppLocalizations {
       '이 플랫폼에서는 공유 기능을 사용할 수 없어 클립보드에 복사되었습니다.';
 
   @override
-  String get onboarding_title => 'Mangayomi에 오신 것을 환영합니다';
+  String get onboarding_title => 'MangaNest에 오신 것을 환영합니다';
 
   @override
   String get onboarding_language_title => '언어 선택';
 
   @override
   String get onboarding_language_body =>
-      'Mangayomi가 이 언어로 표시됩니다. 나중에 테마 설정에서 변경할 수 있습니다.';
+      'MangaNest가 이 언어로 표시됩니다. 나중에 테마 설정에서 변경할 수 있습니다.';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3442,7 +3443,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get onboarding_body =>
-      'Mangayomi에는 기본 소스가 포함되어 있지 않습니다. 저장소를 추가하면 확장 프로그램을 설치하여 탐색할 수 있습니다.';
+      'MangaNest에는 기본 소스가 포함되어 있지 않습니다. 저장소를 추가하면 확장 프로그램을 설치하여 탐색할 수 있습니다.';
 
   @override
   String get onboarding_add => '저장소 추가';
@@ -3708,7 +3709,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get genre_rows => '장르별 행';
 
   @override
-  String get share_backup_file => 'Mangayomi 백업 공유';
+  String get share_backup_file => 'MangaNest 백업 공유';
 
   @override
   String get close => '닫기';

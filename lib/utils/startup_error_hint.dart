@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 /// What a database error at launch means and what to do about it, for the
 /// errors whose cause is on the machine rather than in the app; null for
 /// the others.
@@ -9,15 +10,15 @@ String? startupErrorHint(String error) {
   // operation for a read flag it does not pass (#652).
   if (error.contains('MdbxError (15)') ||
       error.contains('Block device required')) {
-    return 'The disk holding Mangayomi\'s data is shared over NFS, and its '
+    return 'The disk holding MangaNest\'s data is shared over NFS, and its '
         'database cannot open on a shared disk. Stop sharing that disk '
         '(remove it from /etc/exports, or run "sudo nfsd disable" if nothing '
-        'else needs it), then open Mangayomi again.';
+        'else needs it), then open MangaNest again.';
   }
   if (error.contains('MdbxError (13)') || error.contains('Permission denied')) {
-    return 'Mangayomi is not allowed to open its data folder. Check that '
+    return 'MangaNest is not allowed to open its data folder. Check that '
         'your user owns that folder and can write to it, then open '
-        'Mangayomi again.';
+        'MangaNest again.';
   }
   return null;
 }

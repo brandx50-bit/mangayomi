@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -510,7 +511,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get open_source_licenses_subtitle =>
-      'Пакеты, на которых построен Mangayomi, и их лицензии';
+      'Пакеты, на которых построен MangaNest, и их лицензии';
 
   @override
   String get open_source_licenses_empty => 'Информация о лицензиях недоступна.';
@@ -2626,10 +2627,10 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get auth_unlock_msg =>
-      'Аутентифицируйтесь, чтобы разблокировать Mangayomi';
+      'Аутентифицируйтесь, чтобы разблокировать MangaNest';
 
   @override
-  String get app_locked => 'Mangayomi заблокирован';
+  String get app_locked => 'MangaNest заблокирован';
 
   @override
   String get auth_to_continue => 'Аутентифицируйтесь, чтобы продолжить';
@@ -3197,7 +3198,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get something_went_wrong => 'Что-то пошло не так';
 
   @override
-  String get startup_failed => 'Mangayomi не удалось завершить запуск';
+  String get startup_failed => 'MangaNest не удалось завершить запуск';
 
   @override
   String sources_with_no_results(int count) {
@@ -3450,7 +3451,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get error_reports_report => 'Сообщить на GitHub';
 
   @override
-  String get error_reports_banner => 'Mangayomi столкнулся с ошибкой';
+  String get error_reports_banner => 'MangaNest столкнулся с ошибкой';
 
   @override
   String get error_reports_banner_action => 'Посмотреть';
@@ -3466,7 +3467,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      'Эта ошибка вызвана расширением, а не Mangayomi. Расширения разрабатываются и поддерживаются владельцами репозитория, из которого был установлен источник. Название источника и открываемый контент помогут им исправить проблему.';
+      'Эта ошибка вызвана расширением, а не MangaNest. Расширения разрабатываются и поддерживаются владельцами репозитория, из которого был установлен источник. Название источника и открываемый контент помогут им исправить проблему.';
 
   @override
   String get error_reports_already_reported => 'Уже отправлено';
@@ -3480,14 +3481,14 @@ class AppLocalizationsRu extends AppLocalizations {
       'Отправка недоступна, скопировано в буфер обмена.';
 
   @override
-  String get onboarding_title => 'Добро пожаловать в Mangayomi';
+  String get onboarding_title => 'Добро пожаловать в MangaNest';
 
   @override
   String get onboarding_language_title => 'Выберите язык';
 
   @override
   String get onboarding_language_body =>
-      'Mangayomi отображается на этом языке. Его можно изменить позже в разделе «Оформление».';
+      'MangaNest отображается на этом языке. Его можно изменить позже в разделе «Оформление».';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3829,7 +3830,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get genre_rows => 'Ряды по жанрам';
 
   @override
-  String get share_backup_file => 'Поделиться резервной копией Mangayomi';
+  String get share_backup_file => 'Поделиться резервной копией MangaNest';
 
   @override
   String get close => 'Закрыть';

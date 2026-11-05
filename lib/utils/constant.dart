@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 import 'package:flutter/material.dart';
 import 'package:shiori/shiori.dart';
 import 'package:mangayomi/models/manga.dart';
@@ -17,9 +18,9 @@ const metadataApiUserAgent =
 
 /// `icon-black.png`, `icon-red.png`, `icon.png`
 const appIconAssets = [
-  'assets/app_icons/icon-black.png',
-  'assets/app_icons/icon-red.png',
-  'assets/app_icons/icon.png',
+  'assets/app_icons/manganest-black.png',
+  'assets/app_icons/manganest.png',
+  'assets/app_icons/manganest-white.png',
 ];
 
 /// `transparent.png`

@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -502,7 +503,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get open_source_licenses_subtitle =>
-      'I pacchetti con cui è realizzato Mangayomi e le relative licenze';
+      'I pacchetti con cui è realizzato MangaNest e le relative licenze';
 
   @override
   String get open_source_licenses_empty =>
@@ -2619,10 +2620,10 @@ class AppLocalizationsIt extends AppLocalizations {
   String get tracked => 'Monitorato';
 
   @override
-  String get auth_unlock_msg => 'Autenticati per sbloccare Mangayomi';
+  String get auth_unlock_msg => 'Autenticati per sbloccare MangaNest';
 
   @override
-  String get app_locked => 'Mangayomi è bloccato';
+  String get app_locked => 'MangaNest è bloccato';
 
   @override
   String get auth_to_continue => 'Autenticati per continuare';
@@ -3193,7 +3194,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get something_went_wrong => 'Qualcosa è andato storto';
 
   @override
-  String get startup_failed => 'Mangayomi non è riuscito ad avviarsi';
+  String get startup_failed => 'MangaNest non è riuscito ad avviarsi';
 
   @override
   String sources_with_no_results(int count) {
@@ -3444,7 +3445,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get error_reports_report => 'Segnala su GitHub';
 
   @override
-  String get error_reports_banner => 'Mangayomi ha riscontrato un errore';
+  String get error_reports_banner => 'MangaNest ha riscontrato un errore';
 
   @override
   String get error_reports_banner_action => 'Mostra';
@@ -3460,7 +3461,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      'Questo errore proviene da un\'estensione, non da Mangayomi. Le estensioni sono sviluppate e mantenute da chi gestisce il repository da cui hai installato questa fonte, quindi la correzione deve essere fatta lì. Il nome della fonte e ciò che stavi aprendo sono dettagli utili da fornire.';
+      'Questo errore proviene da un\'estensione, non da MangaNest. Le estensioni sono sviluppate e mantenute da chi gestisce il repository da cui hai installato questa fonte, quindi la correzione deve essere fatta lì. Il nome della fonte e ciò che stavi aprendo sono dettagli utili da fornire.';
 
   @override
   String get error_reports_already_reported => 'Già segnalato';
@@ -3474,14 +3475,14 @@ class AppLocalizationsIt extends AppLocalizations {
       'Condivisione non disponibile, copiato negli appunti.';
 
   @override
-  String get onboarding_title => 'Benvenuto in Mangayomi';
+  String get onboarding_title => 'Benvenuto in MangaNest';
 
   @override
   String get onboarding_language_title => 'Scegli la tua lingua';
 
   @override
   String get onboarding_language_body =>
-      'Mangayomi viene mostrato in questa lingua. Puoi cambiarla più tardi in Aspetto.';
+      'MangaNest viene mostrato in questa lingua. Puoi cambiarla più tardi in Aspetto.';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3821,7 +3822,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get genre_rows => 'Righe per genere';
 
   @override
-  String get share_backup_file => 'Condividi il backup di Mangayomi';
+  String get share_backup_file => 'Condividi il backup di MangaNest';
 
   @override
   String get close => 'Chiudi';

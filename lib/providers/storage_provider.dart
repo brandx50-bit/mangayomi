@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore_for_file: depend_on_referenced_packages
 import 'dart:io';
 
@@ -70,7 +71,7 @@ class StorageProvider {
   Future<Directory?> getDefaultDirectory() async {
     Directory? directory;
     if (Platform.isAndroid) {
-      directory = Directory("/storage/emulated/0/Mangayomi/");
+      directory = Directory("/storage/emulated/0/MangaNest/");
     } else {
       final dir = await _documentsDirectory();
       // The documents dir in iOS is already named "Mangayomi".
@@ -162,7 +163,7 @@ class StorageProvider {
     }
     if (Platform.isAndroid) {
       directory = Directory(
-        dPath.isEmpty ? "/storage/emulated/0/Mangayomi/" : "$dPath/",
+        dPath.isEmpty ? "/storage/emulated/0/MangaNest/" : "$dPath/",
       );
     } else {
       final dir = await _documentsDirectory();
@@ -281,7 +282,7 @@ class StorageProvider {
   Future<Directory?> getGalleryDirectory() async {
     String gPath;
     if (Platform.isAndroid) {
-      gPath = "/storage/emulated/0/Pictures/Mangayomi/";
+      gPath = "/storage/emulated/0/Pictures/MangaNest/";
     } else {
       gPath = path.join((await getDirectory())!.path, 'Pictures');
     }

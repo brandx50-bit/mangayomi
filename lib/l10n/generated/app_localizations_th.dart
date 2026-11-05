@@ -1,3 +1,4 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 // ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 
@@ -498,7 +499,7 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get open_source_licenses_subtitle =>
-      'แพ็กเกจที่ใช้สร้าง Mangayomi และใบอนุญาตของแต่ละแพ็กเกจ';
+      'แพ็กเกจที่ใช้สร้าง MangaNest และใบอนุญาตของแต่ละแพ็กเกจ';
 
   @override
   String get open_source_licenses_empty => 'ไม่มีข้อมูลใบอนุญาต';
@@ -2581,10 +2582,10 @@ class AppLocalizationsTh extends AppLocalizations {
   String get tracked => 'ติดตามแล้ว';
 
   @override
-  String get auth_unlock_msg => 'ยืนยันตัวตนเพื่อปลดล็อก Mangayomi';
+  String get auth_unlock_msg => 'ยืนยันตัวตนเพื่อปลดล็อก MangaNest';
 
   @override
-  String get app_locked => 'Mangayomi ถูกล็อก';
+  String get app_locked => 'MangaNest ถูกล็อก';
 
   @override
   String get auth_to_continue => 'ยืนยันตัวตนเพื่อดำเนินการต่อ';
@@ -3151,7 +3152,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get something_went_wrong => 'เกิดข้อผิดพลาดบางอย่าง';
 
   @override
-  String get startup_failed => 'Mangayomi ไม่สามารถเริ่มต้นทำงานได้';
+  String get startup_failed => 'MangaNest ไม่สามารถเริ่มต้นทำงานได้';
 
   @override
   String sources_with_no_results(int count) {
@@ -3396,7 +3397,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get error_reports_report => 'รายงานบน GitHub';
 
   @override
-  String get error_reports_banner => 'Mangayomi พบข้อผิดพลาด';
+  String get error_reports_banner => 'MangaNest พบข้อผิดพลาด';
 
   @override
   String get error_reports_banner_action => 'ดู';
@@ -3412,7 +3413,7 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get error_reports_extension_failure =>
-      'ข้อผิดพลาดนี้มาจากส่วนขยาย ไม่ใช่จาก Mangayomi ส่วนขยายเขียนและดูแลโดยผู้ดูแลที่เก็บที่คุณติดตั้งแหล่งที่มานี้ การแก้ไขจึงต้องทำที่นั่น';
+      'ข้อผิดพลาดนี้มาจากส่วนขยาย ไม่ใช่จาก MangaNest ส่วนขยายเขียนและดูแลโดยผู้ดูแลที่เก็บที่คุณติดตั้งแหล่งที่มานี้ การแก้ไขจึงต้องทำที่นั่น';
 
   @override
   String get error_reports_already_reported => 'รายงานแล้ว';
@@ -3426,14 +3427,14 @@ class AppLocalizationsTh extends AppLocalizations {
       'ไม่สามารถแชร์ได้ จึงคัดลอกไปยังคลิปบอร์ดแทน';
 
   @override
-  String get onboarding_title => 'ยินดีต้อนรับสู่ Mangayomi';
+  String get onboarding_title => 'ยินดีต้อนรับสู่ MangaNest';
 
   @override
   String get onboarding_language_title => 'เลือกภาษาของคุณ';
 
   @override
   String get onboarding_language_body =>
-      'Mangayomi จะแสดงเป็นภาษานี้ คุณเปลี่ยนได้ภายหลังในส่วนรูปลักษณ์';
+      'MangaNest จะแสดงเป็นภาษานี้ คุณเปลี่ยนได้ภายหลังในส่วนรูปลักษณ์';
 
   @override
   String get onboarding_nav_grouped_body =>
@@ -3765,7 +3766,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get genre_rows => 'แถวตามประเภท';
 
   @override
-  String get share_backup_file => 'แชร์ไฟล์สำรอง Mangayomi';
+  String get share_backup_file => 'แชร์ไฟล์สำรอง MangaNest';
 
   @override
   String get close => 'ปิด';

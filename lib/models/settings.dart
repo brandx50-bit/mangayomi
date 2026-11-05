@@ -1,4 +1,6 @@
+// Modified for the MangaNest Android fork (2026-11-05).
 import 'package:isar_community/isar.dart';
+import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:mangayomi/models/source.dart';
 import 'package:mangayomi/utils/constant.dart';
 part 'settings.g.dart';
@@ -580,7 +582,7 @@ class Settings {
     this.appUiScale = 1.0,
     this.dateFormat = "M/d/y",
     this.relativeTimesTamps = 2,
-    this.flexSchemeColorIndex = 2,
+    int? flexSchemeColorIndex,
     this.themeIsDark = false,
     this.followSystemTheme = false,
     this.incognitoMode = false,
@@ -810,7 +812,7 @@ class Settings {
     this.libraryUpdateSkipNotStarted = false,
     this.hideNotificationContent = false,
     this.developerMode = false,
-  });
+  }) : flexSchemeColorIndex = flexSchemeColorIndex ?? FlexScheme.tealM3.index;
 
   Settings.fromJson(Map<String, dynamic> json) {
     updatedAt = json["updatedAt"];
